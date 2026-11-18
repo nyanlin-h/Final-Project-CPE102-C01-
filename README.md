@@ -2,7 +2,7 @@
 
 > **Who this is for:** teammates on both the **AR team** and the **app team**.
 > **What it covers:** what the map/navigation part does, what's finished, how to run it, and how your part connects to it.
-> **Last updated:** 17 Nov 2026
+> **Last updated:** 18 Nov 2026
 
 ---
 
@@ -21,9 +21,9 @@ via stairs or lifts. My part is the **digital map of the building** and the **na
 | Building geometry (walls), both floors | ✅ Done | Traced from the official plans |
 | Real-world scale | ✅ Done | Measured on the 1:450 fire-evacuation poster (see §5) |
 | Floors aligned on top of each other | ✅ Done | Matched via stair and lift positions |
-| Walkable network (1,511 nodes) | ✅ Done | All nodes connected, nothing isolated |
+| Walkable network (1,505 nodes) | ✅ Done | All nodes connected, nothing isolated |
 | Stairs (4) and lift banks (2), linked between floors | ✅ Done | `StairNW`, `StairW`, `StairE`, `StairSE`, `LiftW`, `LiftE` |
-| Destinations (26 rooms) | ✅ Done | 16 on Floor 11, 10 on Floor 10 (see §6) |
+| Destinations (20 rooms) | ✅ Done | 10 on Floor 11, 10 on Floor 10, all verified on site (see §6) |
 | A* pathfinding, including multi-floor and step-free mode | ✅ Code done | Tested offline; needs a device test |
 | Poster calibration, AR markers, occlusion | ✅ Code done | Needs posters printed and placed |
 | Tested on a phone in the building | ⏳ Not yet | Next milestone |
@@ -91,7 +91,22 @@ Assets/KMUTT_ARNav/
 
 ## 6. Destinations
 
-**Floor 11:** Room 1100 – Room 1115 (16 rooms, numbers from the `B11-11xx` labels on the evacuation plan)
+**Floor 11** (verified from the on-site walkthrough video; the fire plan's `B11-11xx` codes are **not** the real numbers):
+
+| nodeId | Name | Side of main corridor |
+|---|---|---|
+| `F11_ROOM_1116` | Room 1116 – Classroom | south, east end |
+| `F11_ROOM_1115` | Room 1115 – Classroom | south |
+| `F11_ROOM_1114` | Room 1114 – Classroom | south |
+| `F11_ROOM_1113` | Room 1113 – Computer Laboratory | south |
+| `F11_ROOM_1112` | Room 1112 – Computer Laboratory | south |
+| `F11_ROOM_1121` | Room 1121 – Classroom | north |
+| `F11_ROOM_1120` | Room 1120 – Network Laboratory | north |
+| `F11_ROOM_1119` | Room 1119 – Electronics and Circuits Laboratory | north |
+| `F11_ROOM_1118` | Room 1118 – Embedded Systems Laboratory | north |
+| `F11_ROOM_1117` | Room 1117 – Graduate Common Room | north, west end |
+
+Not yet verified (walkable, no destination): the narrow rooms at the far west of the south row and far east of the north row, and the rooms in the east/west wings.
 
 **Floor 10** (from the on-site video tour):
 
@@ -182,8 +197,9 @@ Example of one trip, as events:
 2. **Lifts:** do both lift banks (west = 2 lifts, east = 3 lifts) stop at floors 10 **and** 11? Do all 4 staircases connect them?
 3. **Floor 10 rooms:** confirm the front/back pairs: 1016 in front of 1014, and 1013 in front of 1015.
 4. **Tour direction:** the tour matches the plan only if it starts at the 3-lift lobby. Confirm that's the "northwest" entrance.
-5. **More Floor 10 names:** the other Floor 10 rooms (top rows) are walkable but unnamed. Add names if needed.
-6. **Better Floor 10 plan:** a CAD/evacuation plan for Floor 10 would remove the 1–2 m error.
+5. **Unverified rooms:** Floor 11 wing rooms and the two narrow end rooms (south-west, north-east) have no confirmed numbers yet.
+6. **More Floor 10 names:** the other Floor 10 rooms (top rows) are walkable but unnamed. Add names if needed.
+7. **Better Floor 10 plan:** a CAD/evacuation plan for Floor 10 would remove the 1–2 m error.
 
 ---
 

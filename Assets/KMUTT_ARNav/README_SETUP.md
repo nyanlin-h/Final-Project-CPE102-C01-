@@ -4,10 +4,10 @@
 The first mesh (`kmutt_cpe_floors_10_11.obj`) was traced from the fire-evacuation plan, but it captured the
 **room-number text and the evacuation arrows as walls**, while most real walls, stairs and lifts were missing.
 `Data/kmutt_cpe_floors.json` is now traced directly from:
-* **Floor 11:** the evacuation plan (CAD drawing, room numbers B11-1100 … B11-1115)
+* **Floor 11:** the evacuation plan (CAD drawing). Its `B11-11xx` labels are *not* the real room numbers; real numbers come from the on-site walkthrough video.
 * **Floor 10:** the Computer Engineering department plan, which is schematic. It was fitted onto the Floor 11 drawing by matching the 4 staircases and 2 lift shafts, so the floors line up vertically.
 
-Contents: 155 + 157 wall boxes · 1511 nodes, all connected · **Room 1100 – Room 1115** (Floor 11 destinations) ·
+Contents: 155 + 157 wall boxes · 1511 nodes, all connected · **Floor 11 rooms 1112–1121** (verified from on-site sign photos) ·
 4 staircases (`StairNW`, `StairW`, `StairE`, `StairSE`) and 2 lift banks (`LiftW`, `LiftE`) linked between floors 10 and 11.
 Floor 10 destinations, from the on-site video tour: Room 1052 (Teachers Lounge), Department Hall, 1017 (Senior Project Room), 1016 (Hardware House Office), 1014 (Hardware House Workshop), 1013 (ESIC Lab), 1015 (Planning and Administration Office), 1012 (A² Lab), 1002 and 1001 (G3MS & CI Labs). The other Floor 10 rooms are walkable but unnamed.
 

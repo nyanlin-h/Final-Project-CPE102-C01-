@@ -25239,152 +25239,12 @@
    "auto": true
   },
   {
-   "nodeId": "F11_ROOM_1100",
-   "displayName": "Room 1100",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 85.345,
-    "y": 3.5,
-    "z": 38.178
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1101",
-   "displayName": "Room 1101",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 85.345,
-    "y": 3.5,
-    "z": 32.017
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1102",
-   "displayName": "Room 1102",
+   "nodeId": "F11_ROOM_1116",
+   "displayName": "Room 1116 - Classroom",
    "type": "Room",
    "floor": 11,
    "position": {
     "x": 72.215,
-    "y": 3.5,
-    "z": 33.33
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1103",
-   "displayName": "Room 1103",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 63.327,
-    "y": 3.5,
-    "z": 32.522
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1104",
-   "displayName": "Room 1104",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 52.217,
-    "y": 3.5,
-    "z": 32.522
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1105",
-   "displayName": "Room 1105",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 41.915,
-    "y": 3.5,
-    "z": 32.522
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1106",
-   "displayName": "Room 1106",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 31.007,
-    "y": 3.5,
-    "z": 32.522
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1107",
-   "displayName": "Room 1107",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 22.725,
-    "y": 3.5,
-    "z": 32.32
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1108",
-   "displayName": "Room 1108",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 9.797,
-    "y": 3.5,
-    "z": 13.13
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1109",
-   "displayName": "Room 1109",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 9.797,
-    "y": 3.5,
-    "z": 7.878
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1110",
-   "displayName": "Room 1110",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 22.725,
     "y": 3.5,
     "z": 12.322
    },
@@ -25393,40 +25253,12 @@
    "auto": false
   },
   {
-   "nodeId": "F11_ROOM_1111",
-   "displayName": "Room 1111",
+   "nodeId": "F11_ROOM_1115",
+   "displayName": "Room 1115 - Classroom",
    "type": "Room",
    "floor": 11,
    "position": {
-    "x": 31.007,
-    "y": 3.5,
-    "z": 11.615
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1112",
-   "displayName": "Room 1112",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 41.915,
-    "y": 3.5,
-    "z": 11.615
-   },
-   "isDestination": true,
-   "transitionGroup": "",
-   "auto": false
-  },
-  {
-   "nodeId": "F11_ROOM_1113",
-   "displayName": "Room 1113",
-   "type": "Room",
-   "floor": 11,
-   "position": {
-    "x": 52.217,
+    "x": 63.327,
     "y": 3.5,
     "z": 11.615
    },
@@ -25436,11 +25268,11 @@
   },
   {
    "nodeId": "F11_ROOM_1114",
-   "displayName": "Room 1114",
+   "displayName": "Room 1114 - Classroom",
    "type": "Room",
    "floor": 11,
    "position": {
-    "x": 63.327,
+    "x": 52.217,
     "y": 3.5,
     "z": 11.615
    },
@@ -25449,14 +25281,98 @@
    "auto": false
   },
   {
-   "nodeId": "F11_ROOM_1115",
-   "displayName": "Room 1115",
+   "nodeId": "F11_ROOM_1113",
+   "displayName": "Room 1113 - Computer Laboratory",
    "type": "Room",
    "floor": 11,
    "position": {
-    "x": 72.215,
+    "x": 41.915,
     "y": 3.5,
-    "z": 12.322
+    "z": 11.615
+   },
+   "isDestination": true,
+   "transitionGroup": "",
+   "auto": false
+  },
+  {
+   "nodeId": "F11_ROOM_1112",
+   "displayName": "Room 1112 - Computer Laboratory",
+   "type": "Room",
+   "floor": 11,
+   "position": {
+    "x": 31.007,
+    "y": 3.5,
+    "z": 11.615
+   },
+   "isDestination": true,
+   "transitionGroup": "",
+   "auto": false
+  },
+  {
+   "nodeId": "F11_ROOM_1121",
+   "displayName": "Room 1121 - Classroom",
+   "type": "Room",
+   "floor": 11,
+   "position": {
+    "x": 63.327,
+    "y": 3.5,
+    "z": 32.522
+   },
+   "isDestination": true,
+   "transitionGroup": "",
+   "auto": false
+  },
+  {
+   "nodeId": "F11_ROOM_1120",
+   "displayName": "Room 1120 - Network Laboratory",
+   "type": "Room",
+   "floor": 11,
+   "position": {
+    "x": 52.217,
+    "y": 3.5,
+    "z": 32.522
+   },
+   "isDestination": true,
+   "transitionGroup": "",
+   "auto": false
+  },
+  {
+   "nodeId": "F11_ROOM_1119",
+   "displayName": "Room 1119 - Electronics and Circuits Laboratory",
+   "type": "Room",
+   "floor": 11,
+   "position": {
+    "x": 41.915,
+    "y": 3.5,
+    "z": 32.522
+   },
+   "isDestination": true,
+   "transitionGroup": "",
+   "auto": false
+  },
+  {
+   "nodeId": "F11_ROOM_1118",
+   "displayName": "Room 1118 - Embedded Systems Laboratory",
+   "type": "Room",
+   "floor": 11,
+   "position": {
+    "x": 31.007,
+    "y": 3.5,
+    "z": 32.522
+   },
+   "isDestination": true,
+   "transitionGroup": "",
+   "auto": false
+  },
+  {
+   "nodeId": "F11_ROOM_1117",
+   "displayName": "Room 1117 - Graduate Common Room",
+   "type": "Room",
+   "floor": 11,
+   "position": {
+    "x": 22.725,
+    "y": 3.5,
+    "z": 32.32
    },
    "isDestination": true,
    "transitionGroup": "",
@@ -31686,218 +31602,146 @@
   },
   {
    "a": 1489,
-   "b": 816
-  },
-  {
-   "a": 1489,
-   "b": 1483
-  },
-  {
-   "a": 1489,
-   "b": 1389
-  },
-  {
-   "a": 1490,
-   "b": 801
-  },
-  {
-   "a": 1490,
-   "b": 1056
-  },
-  {
-   "a": 1490,
-   "b": 1130
-  },
-  {
-   "a": 1491,
-   "b": 1280
-  },
-  {
-   "a": 1491,
-   "b": 751
-  },
-  {
-   "a": 1491,
-   "b": 1279
-  },
-  {
-   "a": 1492,
-   "b": 1091
-  },
-  {
-   "a": 1492,
-   "b": 1090
-  },
-  {
-   "a": 1492,
-   "b": 1092
-  },
-  {
-   "a": 1493,
-   "b": 1465
-  },
-  {
-   "a": 1493,
-   "b": 1464
-  },
-  {
-   "a": 1493,
-   "b": 1466
-  },
-  {
-   "a": 1494,
-   "b": 993
-  },
-  {
-   "a": 1494,
-   "b": 992
-  },
-  {
-   "a": 1494,
-   "b": 994
-  },
-  {
-   "a": 1495,
-   "b": 1373
-  },
-  {
-   "a": 1495,
-   "b": 1372
-  },
-  {
-   "a": 1495,
-   "b": 1374
-  },
-  {
-   "a": 1496,
-   "b": 1435
-  },
-  {
-   "a": 1496,
-   "b": 1436
-  },
-  {
-   "a": 1496,
-   "b": 1434
-  },
-  {
-   "a": 1497,
-   "b": 1179
-  },
-  {
-   "a": 1497,
-   "b": 1180
-  },
-  {
-   "a": 1497,
-   "b": 991
-  },
-  {
-   "a": 1498,
-   "b": 1143
-  },
-  {
-   "a": 1498,
-   "b": 1144
-  },
-  {
-   "a": 1498,
-   "b": 829
-  },
-  {
-   "a": 1499,
-   "b": 946
-  },
-  {
-   "a": 1499,
-   "b": 745
-  },
-  {
-   "a": 1499,
-   "b": 945
-  },
-  {
-   "a": 1500,
-   "b": 1403
-  },
-  {
-   "a": 1500,
-   "b": 1404
-  },
-  {
-   "a": 1500,
-   "b": 757
-  },
-  {
-   "a": 1501,
-   "b": 1411
-  },
-  {
-   "a": 1501,
-   "b": 797
-  },
-  {
-   "a": 1501,
-   "b": 1412
-  },
-  {
-   "a": 1502,
-   "b": 1202
-  },
-  {
-   "a": 1502,
-   "b": 1163
-  },
-  {
-   "a": 1502,
-   "b": 1162
-  },
-  {
-   "a": 1503,
-   "b": 1421
-  },
-  {
-   "a": 1503,
-   "b": 1422
-  },
-  {
-   "a": 1503,
-   "b": 1420
-  },
-  {
-   "a": 1504,
    "b": 914
   },
   {
-   "a": 1504,
+   "a": 1489,
    "b": 913
   },
   {
-   "a": 1504,
+   "a": 1489,
    "b": 915
   },
   {
-   "a": 1505,
+   "a": 1490,
+   "b": 1421
+  },
+  {
+   "a": 1490,
+   "b": 1422
+  },
+  {
+   "a": 1490,
+   "b": 1420
+  },
+  {
+   "a": 1491,
+   "b": 1202
+  },
+  {
+   "a": 1491,
+   "b": 1163
+  },
+  {
+   "a": 1491,
+   "b": 1162
+  },
+  {
+   "a": 1492,
+   "b": 1411
+  },
+  {
+   "a": 1492,
+   "b": 797
+  },
+  {
+   "a": 1492,
+   "b": 1412
+  },
+  {
+   "a": 1493,
+   "b": 1403
+  },
+  {
+   "a": 1493,
+   "b": 1404
+  },
+  {
+   "a": 1493,
+   "b": 757
+  },
+  {
+   "a": 1494,
+   "b": 1091
+  },
+  {
+   "a": 1494,
+   "b": 1090
+  },
+  {
+   "a": 1494,
+   "b": 1092
+  },
+  {
+   "a": 1495,
+   "b": 1465
+  },
+  {
+   "a": 1495,
+   "b": 1464
+  },
+  {
+   "a": 1495,
+   "b": 1466
+  },
+  {
+   "a": 1496,
+   "b": 993
+  },
+  {
+   "a": 1496,
+   "b": 992
+  },
+  {
+   "a": 1496,
+   "b": 994
+  },
+  {
+   "a": 1497,
+   "b": 1373
+  },
+  {
+   "a": 1497,
+   "b": 1372
+  },
+  {
+   "a": 1497,
+   "b": 1374
+  },
+  {
+   "a": 1498,
+   "b": 1435
+  },
+  {
+   "a": 1498,
+   "b": 1436
+  },
+  {
+   "a": 1498,
+   "b": 1434
+  },
+  {
+   "a": 1499,
    "b": 881
   },
   {
-   "a": 1506,
+   "a": 1500,
    "b": 771
   },
   {
-   "a": 1507,
+   "a": 1501,
    "b": 853
   },
   {
-   "a": 1508,
+   "a": 1502,
    "b": 1361
   },
   {
-   "a": 1509,
+   "a": 1503,
    "b": 854
   },
   {
-   "a": 1510,
+   "a": 1504,
    "b": 806
   }
  ]

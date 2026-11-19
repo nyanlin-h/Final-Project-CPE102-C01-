@@ -1,12 +1,10 @@
 # KMUTT CPE AR Navigation: Project Walkthrough (Map & Navigation)
 
-> **Who this is for:** teammates on both the **AR team** and the **app team**.
-> **What it covers:** what the map/navigation part does, what's finished, how to run it, and how your part connects to it.
 > **Last updated:** 18 Nov 2026
 
 ---
 
-## 1. The project in one paragraph
+## 1. Project Summary
 
 An AR app (Unity + AR Foundation, Android + iOS) that guides people through **Floor 10 and Floor 11** of the CPE building.
 The user scans a poster on the wall, picks a room, and follows 3D arrows drawn over the camera view. Routes work across floors
@@ -28,7 +26,7 @@ via stairs or lifts. My part is the **digital map of the building** and the **na
 | Poster calibration, AR markers, occlusion | ✅ Code done | Needs posters printed and placed |
 | Tested on a phone in the building | ⏳ Not yet | Next milestone |
 
-**Open questions for the team:** see §10.
+
 
 ---
 
